@@ -1,5 +1,6 @@
 package ooplab8;
 
+
 public class Dog extends Pet {
     private String breed;
 
@@ -27,4 +28,6 @@ public class Dog extends Pet {
     public void setBreed(String breed) {
         this.breed = breed;
     }
-}
+
+
+}//class
