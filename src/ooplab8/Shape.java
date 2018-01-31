@@ -28,4 +28,7 @@ public abstract class Shape {
     public void setLength(int length) {
         this.length = length;
     }
+
+
+
 }//Shape
