@@ -8,4 +8,4 @@ public class EmployeeApp {
 
         System.out.print(employee.toString());
     }//main
-}
+}//class
