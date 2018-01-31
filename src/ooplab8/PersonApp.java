@@ -8,5 +8,8 @@ public class PersonApp {
         Student student = new Student("Boy Saiyai","Male","20/12/1990",20,"STD0001","IS:MT");
 
         System.out.print(student.toString());
+
+
+
     }//main
-}
+}//class
