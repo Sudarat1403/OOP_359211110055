@@ -2,30 +2,28 @@ package ooplab8;
 
 public class Person {
     private String name;
-    private String gander;
-    private String dateOfBirth;
-    private String age;
+    private  String gender;
+    private  String dateofBirth;
+    private int agel;
+
     //constructor
 
-    public Person(String name, String gander, String dateOfBirth, String age) {
+    public Person(String name, String gender, String dateofBirth, int agel) {
         this.name = name;
-        this.gander = gander;
-        this.dateOfBirth = dateOfBirth;
-        this.age = age;
+        this.gender = gender;
+        this.dateofBirth = dateofBirth;
+        this.agel = agel;
     }
-    //toString()
 
-
+    //toString
     @Override
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
-                ", gander='" + gander + '\'' +
-                ", dateOfBirth='" + dateOfBirth + '\'' +
-                ", age='" + age + '\'' +
+                ", gender='" + gender + '\'' +
+                ", dateofBirth='" + dateofBirth + '\'' +
+                ", agel=" + agel +
                 '}';
-
-
     }
 
     public String getName() {
@@ -36,27 +34,27 @@ public class Person {
         this.name = name;
     }
 
-    public String getGander() {
-        return gander;
+    public String getGender() {
+        return gender;
     }
 
-    public void setGander(String gander) {
-        this.gander = gander;
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
-    public String getDateOfBirth() {
-        return dateOfBirth;
+    public String getDateofBirth() {
+        return dateofBirth;
     }
 
-    public void setDateOfBirth(String dateOfBirth) {
-        this.dateOfBirth = dateOfBirth;
+    public void setDateofBirth(String dateofBirth) {
+        this.dateofBirth = dateofBirth;
     }
 
-    public String getAge() {
-        return age;
+    public int getAgel() {
+        return agel;
     }
 
-    public void setAge(String age) {
-        this.age = age;
+    public void setAgel(int agel) {
+        this.agel = agel;
     }
-}//class
+}
