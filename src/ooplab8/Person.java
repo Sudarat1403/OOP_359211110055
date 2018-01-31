@@ -7,7 +7,6 @@ public class Person {
     private String age;
     //constructor
 
-
     public Person(String name, String gander, String dateOfBirth, String age) {
         this.name = name;
         this.gander = gander;
