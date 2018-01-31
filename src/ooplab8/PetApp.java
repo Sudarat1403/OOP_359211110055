@@ -2,6 +2,7 @@ package ooplab8;
 
 public class PetApp {
 
+
     public static void main(String[] args) {
         Dog dog = new Dog("Chayen",2,"Bangkeaw");
         System.out.println(dog.toString());
@@ -10,6 +11,8 @@ public class PetApp {
         Cat cat = new Cat("Giant",2,"persian");
         System.out.println(cat.toString());
         cat.makeNoise();
+
+
 
     }//main
 }//class
