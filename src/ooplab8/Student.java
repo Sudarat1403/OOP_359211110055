@@ -20,8 +20,6 @@ public class Student extends Person {
                 "} " + super.toString();
     }
 
-
-
     public String getId() {
         return id;
     }
@@ -37,6 +35,8 @@ public class Student extends Person {
     public void setProgram(String program) {
         this.program = program;
     }
+
+
 
 
 
