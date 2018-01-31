@@ -9,4 +9,6 @@ public class Rectangle extends Shape {
     public double getArea() {
         return super.getWidth()*super.getLength();
     }
-}
+
+
+}//class
