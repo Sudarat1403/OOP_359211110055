@@ -57,6 +57,4 @@ public class Person {
         this.job = job;
     }
 
-
-
 }//class
