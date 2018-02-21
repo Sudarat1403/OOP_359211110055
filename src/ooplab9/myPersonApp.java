@@ -18,5 +18,6 @@ public class myPersonApp {
 
         System.out.println(person.getJob());
 
+
     }
 }//class
